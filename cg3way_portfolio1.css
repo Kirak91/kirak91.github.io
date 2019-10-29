@@ -1,0 +1,223 @@
+body {background-color: rgb(252, 252, 252);
+                  font: black;
+                  font-family: sans-serif;
+                  }
+h1   {color: darkslategrey ;
+    font-family: 'Courier New';
+     font-size: 70px;
+     text-align: center;}
+
+h3 {color: black;
+    font-family: 'Courier New';
+     font-size: 30px;
+     text-align: center;
+
+}  
+
+h4 {color: rgb(255, 255, 255);
+    font-family: 'Courier New';
+     font-size: 30px;
+     text-align: center;
+
+}   
+
+p    {color: rgb(7, 7, 7);
+    font-family: 'Courier New';
+     font-size: 25px;
+     text-align: center;}
+
+   
+
+
+h2   {color: black;
+  font-family: 'Courier New';
+     font-size: 80px;
+     text-align: center;
+
+    
+    }
+
+     .box1 {
+    background-color: rgb(3, 3, 3);
+  width: 100%;
+  border-bottom-color: black;
+  height: 520px;
+  border-bottom: 7px solid black;
+  border-bottom: 5px solid rgb(75, 74, 74);
+  border-width: 6px;
+}
+
+.box {
+  background-color: white;
+  width: 1200;
+  padding: 25px;
+  margin: 10px;
+  border-bottom: 5px solid rgb(3, 3, 3);
+  border-width: 6px;
+}
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+ 
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: rgb(253, 248, 235);
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+
+
+header {
+  background-color: rgb(2, 2, 2);
+  padding: 0px;
+  font-family: 'Megrim';
+  font-synthesis: inherit;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  border-bottom: 5px black;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  z-index: 100;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(253, 252, 252);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 100%;
+  
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: 'Courier New';
+  
+}
+
+
+
+
+.button4:hover {background-color: #333;
+                color: whitesmoke;
+                
+                
+                }
+ .button5 {
+                    background-color: rgb(15, 22, 61);
+                    color: rgb(255, 253, 253);
+                    text-decoration: underline;
+                    font-size: 70px;
+                    font-family: 'Courier New';
+                    
+                  }
+                  
+.button5:hover {background-color: #333;
+                                  color: whitesmoke;
+                                  
+                                  
+                                  }
+.box2 {
+  background-color: white;
+  width: 1200;
+  border: 100px ;
+  border-bottom-color: black;
+  padding: 90px;
+  margin: 120px;
+  border-bottom: 7px solid black;
+  border-bottom: 5px solid rgb(75, 74, 74);
+
+  border-width: 6px;
+
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a { color: white; }
+
+details {
+
+  align: center;
+  font-size: 30px;
+  text-align:"center"
+  
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
+.box4 {
+  background-color: white;
+  width: 1200;
+  border-bottom-color: black;
+text-align: center;
+ 
+}
