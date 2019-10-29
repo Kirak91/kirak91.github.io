@@ -1,0 +1,217 @@
+/* Gallery*/
+
+body{
+  background-color: rgb(22, 22, 22);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+  
+    color: white;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    
+    
+   
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Description */ 
+  
+  .box {
+      
+      width: 1200;
+      padding: 25px;
+      margin: 10px;
+     
+      
+      border-width: 6px;
+     
+    
+    }
+  
+  
+    h2  {color: white;
+      font-family: 'Megrim';
+       font-size: 60px;
+       text-align: center;
+     
+  
+      
+      }
+  p {
+      color: white;
+      font-family: 'Courier';
+       font-size: 20px;
+       text-align: center;
+  }
+  
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(43, 43, 43);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #adadad;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  .box {
+  
+  width: 1000;
+  padding: 40px;
+  margin: 10px;
+  border-width: 6px;
+  }
+  
+  
+  .button3 {
+   
+    color: white;
+    text-decoration: underline;
+    font-size: 23px;
+    font-family: 'Courier';
+    
+  }
+  
+  
+  .button3:hover {background-color: #333;
+                  color: whitesmoke;
+                  
+                  
+                  }
+  
+  .container {
+    position: relative;
+  
+    width: 100%;
+    padding-left: 0px;
+  padding-right: 0px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+   
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon {
+    color: rgb(39, 39, 39);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: rgb(34, 34, 34);
+  }
+  
+  h3 {color: rgb(212, 211, 211);
+      font-family: 'Courier New';
+       font-size: 30px;
+       text-align: center;
+       
+       
+  
+  } 
+  ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
