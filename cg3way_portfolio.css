@@ -186,7 +186,7 @@ div.gallery {
        
   
   } 
-  ul {
+  .menu {
     list-style-type: none;
     position: fixed;
     margin: 0;
